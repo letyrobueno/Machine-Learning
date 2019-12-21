@@ -1,3 +1,6 @@
+""" Scikit-learn supervised learning page: https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
+"""
+
 from sklearn import datasets
 import pandas as pd
 import numpy as np
