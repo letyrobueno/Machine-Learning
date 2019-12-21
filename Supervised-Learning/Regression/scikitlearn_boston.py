@@ -101,7 +101,7 @@ y_pred = reg_all.predict(X_test)
 reg_all.score(X_test, y_test)
 
 """ k-fold Cross-validation (or k-fold CV): split the dataset into k folds, then use each time 
-one of them as the test set and fit the model on the remaining k-1 folds. Predict on the 
+one of them as the test set and fit the model on the remaining (k-1) folds. Predict on the 
 test set, and compute the metric. Use the k values of R squared to compute mean, median, etc.
 The more folds we use, the more computationally expensive it is, because there are more fittings and predictings.
 """
