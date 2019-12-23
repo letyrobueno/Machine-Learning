@@ -1,9 +1,14 @@
 # Machine Learning Algorithms
 
+Conventions:
+* features = predictor variables = independent variables;
+* target variable = dependent variable = response variable;
+* training a model on the data = fitting a model to the data.
+
 ## Supervised Learning
-It uses labeled data and is divided in:
-1. **Classification:** output is a value in a set *C* (categories).
-	1. ***k*-nearest neighbors:** tries to predict the label of a point by looking at the *k* closest labeled points;
+It uses labeled data as input, which are usually represented in a table structure. It divides in:
+1. **Classification:** outputs a label, which is a value in a set *C* (categories).
+	1. ***k*-nearest neighbors (KNN):** predicts the label of a data point by looking at the *k* closest labeled data points;
 	
 	* [scikit-learn example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris.py)
 
@@ -16,7 +21,7 @@ In Python we can use scikit-learn, TensorFlow and Keras for Supervised Learning.
 It tries to discover hidden patterns in unlabeled data. Main tasks:
 1. **Clustering**: tries to discover the underlying groups (clusters) in a dataset;
 	1. ***k*-means clustering:** finds clusters given a number of clusters (scikit-learn);
-2. **Data visualization:** hierarchical clustering and t-SNE;
+2. **Data visualization:** hierarchical clustering and *t*-SNE;
 3. **Dimension reduction techniques:** Principal Component Analysis (PCA);
 4. **Dimension reduction techniques:** Non-negative matrix factorization" ("NMF").
 
