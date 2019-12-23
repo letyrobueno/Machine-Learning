@@ -49,8 +49,12 @@ print('\nboston.head: \n\n', df.head())
 
 ########## Predicting house value from a *single* feature ##########
 X_rooms = X[:,5]    # take all lines from the column 5 (with the average number of rooms)
-y = y.reshape(-1, 1) # keep the 1st dimension and add another dimension of size one to y
+
+# Reshaping X_rooms because features must come in columns and observations in rows
 X_rooms = X_rooms.reshape(-1, 1) # keep the 1st dimension and add another dimension of size one to X_rooms
+
+# Reshaping y because the target needs to be a single column with same number of observations as the feature data (X_rooms)
+y = y.reshape(-1, 1) # keep the 1st dimension and add another dimension of size one to y
 
 # Plotting house value versus number of rooms
 plt.scatter(X_rooms, y)
@@ -103,7 +107,7 @@ reg_all.score(X_test, y_test)
 """ k-fold Cross-validation (or k-fold CV): split the dataset into k folds, then use each time 
 one of them as the test set and fit the model on the remaining (k-1) folds. Predict on the 
 test set, and compute the metric. Use the k values of R squared to compute mean, median, etc.
-The more folds we use, the more computationally expensive it is, because there are more fittings and predictings.
+The more folds we use, the more computationally expensive it is, because there are more fittings and predictions.
 """
 from sklearn.model_selection import cross_val_score
 reg_cv = linear_model.LinearRegression()
