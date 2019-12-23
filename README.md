@@ -3,15 +3,9 @@
 ## Supervised Learning
 It uses labeled data and is divided in:
 1. **Classification:** output is a value in a set *C* (categories).
-	1. ***k*-nearest neighbors:** tries to predict the label of a point by looking at the *k* closest labeled points;
+	1. ***k*-nearest neighbors:** tries to predict the label of a point by looking at the *k* closest labeled points. Example: [scikit-learn](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris.py).
 
-**Codes:**
-[scikit-learn example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris.py).
-
-2. **Regression:** output is a value in R (continuous).
-	
-**Codes:**
-[scikit-learn example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Regression/scikitlearn_boston.py).
+2. **Regression:** output is a value in R (continuous). Example: [scikit-learn](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Regression/scikitlearn_boston.py).
 
 In Python we can use scikit-learn, TensorFlow and Keras for Supervised Learning.
 
