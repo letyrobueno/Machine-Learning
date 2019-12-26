@@ -1,6 +1,9 @@
-""" Load the Iris dataset with measurements for each species to apply Classification.
+""" Load the Iris dataset with measurements for each species to apply Classification method: KNN.
 
 Scikit-learn supervised learning page: https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
+
+Instances: 150 (50 in each of three classes)
+Attributes: 4 numeric, predictive attributes and the class
 
 Attribute Information of the dataset:
     1. sepal length in cm
@@ -63,7 +66,16 @@ knn.fit(X_train, y_train)
 
 # (3) Make predictions on test set
 y_pred = knn.predict(X_test)
-print("Test set predictions:\n {}".format(y_pred))
+print("\nTest set predictions:\n {}".format(y_pred))
 
 # (4) Compare predictions with the known labels
-print(knn.score(X_test, y_test))
+print("\nScore: ", knn.score(X_test, y_test))
+
+""" Class imbalance: when one class is more frequent, accuracy is not enough to measure performance
+Possible metrics from the Confusion matrix: (i) Positive Predictive Value (PPV); (ii) Sensitivity 
+(or hit rate or true positive rate); (iii) F1 score;
+"""
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+print("\nConfusion matrix: ", confusion_matrix(y_test, y_pred))
+print("\nClassification report:\n", classification_report(y_test, y_pred))

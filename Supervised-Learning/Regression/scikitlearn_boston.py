@@ -18,7 +18,7 @@ Attribute Information of the dataset:
     13. LSTAT    % lower status of the population
     14. MEDV     Median value of owner-occupied homes in $1000's
     
-Source: UCI ML housing dataset available at https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
+Source: https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
         https://scikit-learn.org/stable/datasets/index.html#boston-dataset
 """
 

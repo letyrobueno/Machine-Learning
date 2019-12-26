@@ -9,13 +9,51 @@ Conventions:
 It uses labeled data as input, which are usually represented in a table structure. It divides in:
 1. **Classification:** outputs a label, which is a value in a set *C* (categories).
 	1. ***k*-nearest neighbors (KNN):** predicts the label of a data point by looking at the *k* closest labeled data points;
-	
-	* [scikit-learn example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris.py)
+		* **Confusion matrix:** table used to evaluate the performance of a classification model.
+		* **Code example:**
+			* [sklearn iris species example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris.py)
+	2. **Logistic Regression:**outputs probabilities.
+		* One of the most commonly used ML algorithms for two-class classification;
+		* Dependent variable follows Bernoulli Distribution;
+		* Logistic regression threshold is 0.5, by default.
+		* **ROC curve (Receiver Operating Characteristic Curve):** series of different false positive and true positive rates as we vary threshold;
+		* **Estimation:** Maximum Likelihood Estimation (MLE);
+		* Model fitness calculated through Concordance and KS-Statistics;
+		* It divides in:
+		a. **Binary Logistic Regression:** target variable has two possible outputs. **Examples:** spam detection, diabetes prediction, cancer detection, and if a user will click on an advertisement link or buy a product or not;
+			* **Code example:**
+				* [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)
+		b. **Multinomial Logistic Regression:** target variable has 3 or more **nominal** categories. **Examples:** types of iris flowers, and types of wine;
+			* **Code example:**
+				* [sklearn iris species example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris2.py)
+		c. **Ordinal Logistic Regression:** target variable has 3 or more **ordinal** categories. **Example:** restaurant or product rating (from 1 to 5), and classification of documents into categories.
+		
+	3. **Support Vector Machines (SVM)**
+		* **Code example:**
+		* [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)
+	4. **Kernel SVM**
+		* **Code example:**
+			* [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)	
+	5. **Naïve Bayes**
+		* **Code example:**
+			* [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)	
+	6. **Decision Tree Algorithm**
+		* **Code example:**
+			* [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)	
+	7. **Random Forest Classification**
+		* **Code example:**
+			* [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)	
 
-2. **Regression:** output is a value in R (continuous);
-	* [scikit-learn example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Regression/scikitlearn_boston.py)
+2. **Linear Regression:** output is a value in R (continuous);
+	* **Estimation:** OLS (Ordinary Least Squares), which is the sum of the squares of the residuals (same as minimizing the mean squared error of the predictions on the training set);
+	* **Code example:**
+		* [sklearn Boston housing prices example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Regression/scikitlearn_boston.py)
 
-In Python we can use scikit-learn, TensorFlow and Keras for Supervised Learning.
+[Linear Regression X Logistic Regression:](https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python)
+	* Linear regression gives a continuous output (example: house price), logistic regression gives a constant output (example: stock price);
+	* Linear regression estimated by Ordinary Least Squares (OLS), logistic regression estimated by Maximum Likelihood Estimation (MLE);
+
+In Python we can use scikit-learn (sklearn), TensorFlow and Keras for Supervised Learning.
 
 ## Unsupervised Learning
 It tries to discover hidden patterns in unlabeled data. Main tasks:
