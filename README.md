@@ -1,6 +1,6 @@
 # Machine Learning Algorithms
 
-Conventions:
+### Conventions:
 * features = predictor variables = independent variables;
 * target variable = dependent variable = response variable;
 * training a model on the data = fitting a model to the data.
