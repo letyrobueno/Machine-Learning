@@ -28,7 +28,7 @@ It uses labeled data as input, which are usually represented in a table structur
         * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)    
     5. **Naïve Bayes**
         * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)    
-    6. **Decision Tree Algorithm**
+    6. **[Decision Trees](https://scikit-learn.org/stable/modules/tree.html)** 
         * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)    
     7. **Random Forest Classification**
         * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)    
