@@ -9,8 +9,7 @@
 It uses labeled data as input, which are usually represented in a table structure. It divides in:
 1. **Classification:** outputs a label, which is a value in a set *C* (categories).
 	* **Confusion matrix:** table used to evaluate the performance of a classification model.
-	1. ***k*-nearest neighbors (KNN):** predicts the label of a data point by looking at the *k* closest labeled data points;
-		* **Code example:** [sklearn iris species example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris.py)
+	1. ***k*-nearest neighbors (KNN):** predicts the label of a data point by looking at the *k* closest labeled data points. **Code example:** [sklearn iris species example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris.py)
 	2. **Logistic Regression:** outputs probabilities.
 		* One of the most commonly used ML algorithms for two-class classification;
 		* Dependent variable follows Bernoulli Distribution;
@@ -19,10 +18,8 @@ It uses labeled data as input, which are usually represented in a table structur
 		* **Estimation:** Maximum Likelihood Estimation (MLE);
 		* Model fitness calculated through Concordance and KS-Statistics;
 		* It divides in:
-			1. **Binary Logistic Regression:** target variable has two possible outputs. **Examples:** spam detection, diabetes prediction, cancer detection, and if a user will click on an advertisement link or buy a product or not;
-			* **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)
-			2. **Multinomial Logistic Regression:** target variable has 3 or more **nominal** categories. **Examples:** types of iris flowers, and types of wine;
-			* **Code example:** [sklearn iris species example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris2.py)
+			1. **Binary Logistic Regression:** target variable has two possible outputs. **Examples:** spam detection, diabetes prediction, cancer detection, and if a user will click on an advertisement link or buy a product or not. **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)
+			2. **Multinomial Logistic Regression:** target variable has 3 or more **nominal** categories. **Examples:** types of iris flowers, and types of wine. **Code example:** [sklearn iris species example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris2.py)
 			3. **Ordinal Logistic Regression:** target variable has 3 or more **ordinal** categories. **Example:** restaurant or product rating (from 1 to 5), and classification of documents into categories.
 		
 	3. **Support Vector Machines (SVM)**
