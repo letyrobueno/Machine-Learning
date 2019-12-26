@@ -38,8 +38,8 @@ It uses labeled data as input, which are usually represented in a table structur
     * **Code example:** [sklearn Boston housing prices example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Regression/scikitlearn_boston.py)
 
 [Linear Regression X Logistic Regression:](https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python)
-    - Linear regression gives a continuous output (example: house price), logistic regression gives a constant output (example: stock price);
-    - Linear regression estimated by Ordinary Least Squares (OLS), logistic regression estimated by Maximum Likelihood Estimation (MLE);
+* Linear regression gives a continuous output (example: house price), logistic regression gives a constant output (example: stock price);
+* Linear regression estimated by Ordinary Least Squares (OLS), logistic regression estimated by Maximum Likelihood Estimation (MLE);
 
 In Python we can use scikit-learn (sklearn), TensorFlow and Keras for Supervised Learning.
 
