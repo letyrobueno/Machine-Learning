@@ -22,16 +22,17 @@ It uses labeled data as input, which are usually represented in a table structur
             2. **Multinomial Logistic Regression:** target variable has 3 or more **nominal** categories. **Examples:** types of iris flowers, and types of wine. **Code example:** [sklearn iris species example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris2.py)
             3. **Ordinal Logistic Regression:** target variable has 3 or more **ordinal** categories. **Example:** restaurant or product rating (from 1 to 5), and classification of documents into categories.
         
-    3. **Support Vector Machines (SVM)**
+    3. **[Support Vector Machines (SVM)](https://scikit-learn.org/stable/modules/svm.html)**
         * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)
-    4. **Kernel SVM**
+    4. **[Kernel SVM](https://scikit-learn.org/stable/modules/svm.html#kernel-functions)**
         * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)    
-    5. **Naïve Bayes**
+    5. **[Naïve Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)**
         * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)    
     6. **[Decision Trees](https://scikit-learn.org/stable/modules/tree.html)** 
         * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)    
-    7. **Random Forest Classification**
-        * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)    
+    7. **[Random Forest Classification](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees)**
+        * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)   
+    8. [Neural Networks models](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)
 
 2. **Linear Regression:** output is a value in R (continuous);
     * **Estimation:** OLS (Ordinary Least Squares), which is the sum of the squares of the residuals (same as minimizing the mean squared error of the predictions on the training set);
