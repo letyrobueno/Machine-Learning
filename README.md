@@ -32,7 +32,7 @@ It uses labeled data as input, which are usually represented in a table structur
         * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)    
     7. **[Random Forest Classification](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees)**
         * **Code example:** [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)   
-    8. [Neural Networks models](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)
+    8. **[Neural Networks models](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)**
 
 2. **Linear Regression:** output is a value in R (continuous);
     * **Estimation:** OLS (Ordinary Least Squares), which is the sum of the squares of the residuals (same as minimizing the mean squared error of the predictions on the training set);
