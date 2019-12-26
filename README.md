@@ -8,8 +8,8 @@
 ## Supervised Learning
 It uses labeled data as input, which are usually represented in a table structure. It divides in:
 1. **Classification:** outputs a label, which is a value in a set *C* (categories).
+	* **Confusion matrix:** table used to evaluate the performance of a classification model.
 	1. ***k*-nearest neighbors (KNN):** predicts the label of a data point by looking at the *k* closest labeled data points;
-		* **Confusion matrix:** table used to evaluate the performance of a classification model.
 		* **Code example:**
 			* [sklearn iris species example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris.py)
 	2. **Logistic Regression:** outputs probabilities.
