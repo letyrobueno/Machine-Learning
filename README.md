@@ -12,7 +12,7 @@ It uses labeled data as input, which are usually represented in a table structur
 		* **Confusion matrix:** table used to evaluate the performance of a classification model.
 		* **Code example:**
 			* [sklearn iris species example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris.py)
-	2. **Logistic Regression:**outputs probabilities.
+	2. **Logistic Regression:** outputs probabilities.
 		* One of the most commonly used ML algorithms for two-class classification;
 		* Dependent variable follows Bernoulli Distribution;
 		* Logistic regression threshold is 0.5, by default.
