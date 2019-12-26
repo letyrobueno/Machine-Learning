@@ -20,13 +20,13 @@ It uses labeled data as input, which are usually represented in a table structur
 		* **Estimation:** Maximum Likelihood Estimation (MLE);
 		* Model fitness calculated through Concordance and KS-Statistics;
 		* It divides in:
-		a. **Binary Logistic Regression:** target variable has two possible outputs. **Examples:** spam detection, diabetes prediction, cancer detection, and if a user will click on an advertisement link or buy a product or not;
+			a. **Binary Logistic Regression:** target variable has two possible outputs. **Examples:** spam detection, diabetes prediction, cancer detection, and if a user will click on an advertisement link or buy a product or not;
 			* **Code example:**
 				* [sklearn breast cancer example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_breast_cancer.py)
-		b. **Multinomial Logistic Regression:** target variable has 3 or more **nominal** categories. **Examples:** types of iris flowers, and types of wine;
+			b. **Multinomial Logistic Regression:** target variable has 3 or more **nominal** categories. **Examples:** types of iris flowers, and types of wine;
 			* **Code example:**
 				* [sklearn iris species example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Classification/scikitlearn_iris2.py)
-		c. **Ordinal Logistic Regression:** target variable has 3 or more **ordinal** categories. **Example:** restaurant or product rating (from 1 to 5), and classification of documents into categories.
+			c. **Ordinal Logistic Regression:** target variable has 3 or more **ordinal** categories. **Example:** restaurant or product rating (from 1 to 5), and classification of documents into categories.
 		
 	3. **Support Vector Machines (SVM)**
 		* **Code example:**
