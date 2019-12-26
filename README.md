@@ -41,7 +41,7 @@ It uses labeled data as input, which are usually represented in a table structur
 * Linear regression gives a continuous output (example: house price), logistic regression gives a constant output (example: stock price);
 * Linear regression estimated by Ordinary Least Squares (OLS), logistic regression estimated by Maximum Likelihood Estimation (MLE);
 
-In Python we can use scikit-learn (sklearn), TensorFlow and Keras for Supervised Learning.
+In Python we can use [scikit-learn (sklearn)](https://scikit-learn.org), [TensorFlow](https://www.tensorflow.org) and [Keras](https://keras.io/) for Supervised Learning.
 
 ## Unsupervised Learning
 It tries to discover hidden patterns in unlabeled data. Main tasks:
