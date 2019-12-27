@@ -38,7 +38,7 @@ It uses labeled data as input, which are usually represented in a table structur
     * **Estimation:** OLS (Ordinary Least Squares), which is the sum of the squares of the residuals (same as minimizing the mean squared error of the predictions on the training set);
     * **Code example:** [sklearn Boston housing prices example](https://github.com/letyrobueno/Machine-Learning/blob/master/Supervised-Learning/Regression/scikitlearn_boston.py)
 
-[Linear Regression X Logistic Regression:](https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python)
+**[Linear Regression X Logistic Regression:](https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python)**
 * Linear regression gives a continuous output (example: house price), logistic regression gives a constant output (example: stock price);
 * Linear regression estimated by Ordinary Least Squares (OLS), logistic regression estimated by Maximum Likelihood Estimation (MLE);
 
